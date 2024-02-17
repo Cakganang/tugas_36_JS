@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript - NIOMIC</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <p class="departemen">- Departement of Finance -</p>
+    <input type="email" id="email" value="email"><br>
+    <input type="text" id="" value="username"><br>
+    <input type="password" class="password" id="" value="password"><br>
+
+    <button type="button" onclick="jalankanScript()" name="button">Jalan</button>
+
+    <script type="text/Javascript">
+        function jalankanScript(){
+            console.log(document.getElementById('email'));
+            console.log(document.getElementsByTagName('h2'));
+            console.log(document.getElementsByClassName('password'));
+            console.log(document.querySelector('p'));
+        }
+    </script>
+</body>
+</html>
